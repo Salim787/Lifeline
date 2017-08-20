@@ -1,0 +1,111 @@
+#container{
+  margin:auto;
+}
+#main-body{
+  margin: 8px 0px 0px 0px;
+  display: flex;
+}
+ main {
+   flex: 1 0 auto;
+ }
+
+#nav-header{
+    background-color:#e85a71;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+#nav-bar{
+  margin-bottom:8px;
+}
+nav ul a{
+  color:#000;
+}
+nav ul a:hover{
+  cursor: pointer;
+}
+
+.carousel .carousel-item {
+  height:800px !important;
+}
+
+
+nav .nav-wrapper a{
+  color: #fff;
+margin: auto;
+
+}
+
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.fa-facebook-square:before {
+  content: "\f082";
+}
+.fa-facebook-f:before,
+.fa-facebook:before {
+  content: "\f09a";
+}
+.fa-facebook-official:before {
+  content: "\f230";
+}
+.fa-twitter-square:before {
+  content: "\f081";
+}
+.fa-twitter:before {
+  content: "\f099";
+}
+.btn-floating{
+  background-color: #778584;
+}
+#btn-twitter:hover{
+  background-color: #1da1f2;
+}
+
+#btn-facebook:hover{
+  background-color: #3b5998
+}
+
+#subscribe-btn{
+  background-color: #778584;
+}
+
+.row .col{
+  height: 500px;
+  padding: 0px 0px 0px 0px;
+  background-position: center;
+}
+
+#card-content{
+    padding:20% 20px 0px 20px;
+}
+#card-content h3{
+  text-align: center;
+}
+
+#connect-btn .btn-large{
+  width:300px;
+  text-align: center;
+  background-color: #e85a71;
+}
+.connect-with-us{
+  height: 400px;
+}
+#ready-to-connect{
+  padding:60px 0px 60px 0px;
+}
+
+#connect-btn a{
+  margin:20px 0px 20px 0px;
+}
+.page-footer{
+  background: #000;
+}
+#nav-footer{
+  background-color: #000;
+  padding-right: 42%;
+}
